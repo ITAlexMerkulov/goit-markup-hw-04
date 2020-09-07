@@ -405,6 +405,10 @@ body ul {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.network-link .network-icon {
+  fill: var(--color-white);
+}
+
 .footer-box {
   box-sizing: inline-flex;
 }
