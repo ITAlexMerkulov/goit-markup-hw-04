@@ -191,8 +191,10 @@ body ul {
 .main-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 1600px;
-  max-height: 600px;
+  height: 600px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -204,8 +206,6 @@ body ul {
   background-position: center;
   background-color: #c4c4c4;
   text-align: center;
-  padding-bottom: 200px;
-  padding-top: 200px;
 }
 
 .main-text {
@@ -405,7 +405,7 @@ body ul {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.network-link .network-icon {
+.network-link .foter-icon {
   fill: var(--color-white);
 }
 
@@ -548,6 +548,7 @@ PORTFOLIO.HTML
   border-radius: 4px;
   border: 0px;
   padding: 6px 22px;
+  cursor: pointer;
 }
 
 .button:hover,
